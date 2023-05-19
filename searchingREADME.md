@@ -25,42 +25,40 @@
   
       Dificulty Level : Basic
   Given an array arr[] sorted in ascending order of size N and an integer K. Check if K is present in the array or not.
+	
 
 
-Example 1:
+### Example 1:
 
-Input:
-N = 5, K = 6
-arr[] = {1,2,3,4,6}
-Output: 1
+Input: N = 5, K = 6
+<br> arr[] = {1,2,3,4,6} 
+<br> Output: 1 
+	
 Exlpanation: Since, 6 is present in 
 the array at index 4 (0-based indexing),
 output is 1.
  
 
-Example 2:
+### Example 2:
 
-Input:
-N = 5, K = 2
-arr[] = {1,3,4,5,6}
-Output: -1
+<br> Input: N = 5, K = 2 
+<br> arr[] = {1,3,4,5,6}
+<br> Output: -1
+	
 Exlpanation: Since, 2 is not present 
 in the array, output is -1.
  
 
-Your Task:
-You don't need to read input or print anything. Complete the function searchInSorted() which takes the sorted array arr[], its size N and the element K as input parameters and returns 1 if K is present in the array, else it returns -1. 
-
-
-Expected Time Complexity: O(Log N)
-Expected Auxiliary Space: O(1)
-
- 
-
+### Your Task: 	
+<br> You don't need to read input or print anything. Complete the function searchInSorted() which takes the sorted array arr[], its size N and the element K as input parameters and returns 1 if K is present in the array, else it returns -1. 
+	
+<br> Expected Time Complexity: O(Log N) 
+<br> Expected Auxiliary Space: O(1) 
+	
 Constraints:
-1 <= N <= 106
-1 <= K <= 106
-1 <= arr[i] <= 106
+<br>1 <= N <= 106
+<br>1 <= K <= 106
+<br>1 <= arr[i] <= 106
 
 ```python
  #User function Template for python3
@@ -97,37 +95,37 @@ if __name__ == '__main__':
     Dificulty Level : Basic
 Given a sorted array of integers of size N and a number X. Find the leftmost index of X in the array arr[].
 
-Example 1:
+### Example 1:
 
-Input:
-N = 10
-arr[] = {1, 1, 2, 2, 3, 4, 5, 5, 6, 7}
-X = 1
-Output: 0 
-Explanation: Because the element 1   
+Input: N = 10
+<br> arr[] = {1, 1, 2, 2, 3, 4, 5, 5, 6, 7}
+<br> X = 1
+<br> Output: 0 
+<br> Explanation: Because the element 1   
 appears twice and its left most 
 occurrence is at index 0.
 
-Example 2:
+### Example 2:
 
-Input:
-N = 5
-arr[] = {2, 2, 3, 3, 4}
-X = 4
-Output: 4
+Input: N = 5
+<br> arr[] = {2, 2, 3, 3, 4}
+<br> X = 4
+<br> Output: 4
+	
 Explanation: Because element 4 appears 
 only once at index 4.
-
-Your Task:  
-You don't need to read input or print anything. Your task is to complete the function leftIndex() which takes the array arr[], its size N and an integer X as input parameters and returns the leftmost occurrence of X in arr[]. If X is not present in the array, return -1.
-
+	
+### Your Task:  
+<br> You don't need to read input or print anything. Your task is to complete the function leftIndex() which takes the array arr[], its size N and an integer X as input parameters and returns the leftmost occurrence of X in arr[]. If X is not present in the array, return -1.
+	
+	
 Expected Time Complexity: O(LogN)
-Expected Auxiliary Space: O(1)
-
+<br> Expected Auxiliary Space: O(1)
+	
 Constraints:
-1 <= N <= 106
--105 <= arr[i] <= 105
-Array may contain duplicate elements.   
+<br> 1 <= N <= 106
+<br> -105 <= arr[i] <= 105
+<br> Array may contain duplicate elements.   
   
 
 ```python
@@ -172,44 +170,41 @@ Given an array arr[] of size N, Return the index of any one of its peak elements
 Note: The generated output will always be 1 if the index that you return is correct. Otherwise output will be 0. 
 
 
-Example 1:
+### Example 1:
 
-Input: 
-N = 3
-arr[] = {1,2,3}
-Possible Answer: 2
-Generated Output: 1
-Explanation: index 2 is 3.
+Input: N = 3
+<br> arr[] = {1,2,3}
+<br> Possible Answer: 2
+<br> Generated Output: 1
+<br> Explanation: index 2 is 3.
 It is the peak element as it is 
 greater than its neighbour 2.
 If 2 is returned then the generated output will be 1 else 0.
-Example 2:
+	
+### Example 2:
 
-Input:
-N = 3
-arr[] = {3,4,2}
-Possible Answer: 1
-Output: 1
+Input: N = 3
+<br> arr[] = {3,4,2}
+<br> Possible Answer: 1
+<br> Output: 1
+	
 Explanation: 4 (at index 1) is the 
 peak element as it is greater than 
 it's neighbor elements 3 and 2.
 If 1 is returned then the generated output will be 1 else 0.
- 
-
-Your Task:
-You don't have to read input or print anything. Complete the function peakElement() which takes the array arr[] and its size N as input parameters and return the index of any one of its peak elements.
-
-Can you solve the problem in expected time complexity?
-
- 
-
-Expected Time Complexity: O(log N)
-Expected Auxiliary Space: O(1)
-
-
+	
+	
+### Your Task:
+<br> You don't have to read input or print anything. Complete the function peakElement() which takes the array arr[] and its size N as input parameters and return the index of any one of its peak elements.
+	
+<br> Can you solve the problem in expected time complexity?
+	
+<br> Expected Time Complexity: O(log N)
+<br> Expected Auxiliary Space: O(1)
+	
 Constraints:
-1 ≤ N ≤ 105
-1 ≤ A[] ≤ 106  
+<br> 1 ≤ N ≤ 105
+<br> 1 ≤ A[] ≤ 106  
 
 ```python
 # your task is to complete this function
@@ -262,31 +257,32 @@ if __name__=='__main__':
     Dificulty Level : Basic
 Given a binary sorted non-increasing array of 1s and 0s. You need to print the count of 1s in the binary array.
 
-Example 1:
+### Example 1:
 
-Input:
-N = 8
-arr[] = {1,1,1,1,1,0,0,0}
-Output: 5
-Explanation: Number of 1's in given 
+Input: N = 8
+<br> arr[] = {1,1,1,1,1,0,0,0}
+<br> Output: 5
+<br> Explanation: Number of 1's in given 
 binary array : 1 1 1 1 1 0 0 0 is 5.
-Example 2:
+	
+### Example 2:
 
-Input:
-N = 8
-arr[] = {1,1,0,0,0,0,0,0}
-Output: 2
-Explanation: Number of 1's in given 
+Input: N = 8
+<br> arr[] = {1,1,0,0,0,0,0,0}
+<br> Output: 2
+<br> Explanation: Number of 1's in given 
 binary array : 1 1 0 0 0 0 0 0 is 2.
-Your Task:
-The task is to complete the function countOne() which takes the array arr[] and its size N as inputs and returns the count of 1s in the input array.
-
-Expected Time Complexity: O(LogN).
-Expected Auxiliary Space: O(1).
-
+	
+	
+### Your Task:
+<br> The task is to complete the function countOne() which takes the array arr[] and its size N as inputs and returns the count of 1s in the input array.
+	
+<br> Expected Time Complexity: O(LogN).
+<br> Expected Auxiliary Space: O(1).
+	
 Constraint:
-1 <= N <= 5*106
-arr[i] = 0,1  
+<br> 1 <= N <= 5*106
+<br> arr[i] = 0,1  
   
 
 ```python
@@ -334,34 +330,35 @@ if __name__ == "__main__":
     Dificulty Level : Basic
 Given a sorted array arr[] of size N without duplicates, and given a value x. Floor of x is defined as the largest element K in arr[] such that K is smaller than or equal to x. Find the index of K(0-based indexing).
 
-Example 1:
+### Example 1:
 
-Input:
-N = 7, x = 0 
-arr[] = {1,2,8,10,11,12,19}
-Output: -1
-Explanation: No element less 
+Input: N = 7, x = 0 
+<br> arr[] = {1,2,8,10,11,12,19}
+<br> Output: -1
+<br> Explanation: No element less 
 than 0 is found. So output 
 is "-1".
-Example 2:
+	
+### Example 2:
 
-Input:
-N = 7, x = 5 
-arr[] = {1,2,8,10,11,12,19}
-Output: 1
+Input: N = 7, x = 5 
+<br> arr[] = {1,2,8,10,11,12,19}
+<br> Output: 1
+
 Explanation: Largest Number less than 5 is
 2 (i.e K = 2), whose index is 1(0-based 
 indexing).
-Your Task:
-The task is to complete the function findFloor() which returns an integer denoting the index value of K or return -1 if there isn't any such number.
-
-Expected Time Complexity: O(log N).
-Expected Auxiliary Space: O(1).
-
+	
+### Your Task:
+<br> The task is to complete the function findFloor() which returns an integer denoting the index value of K or return -1 if there isn't any such number.
+	
+<br> Expected Time Complexity: O(log N).
+<br> Expected Auxiliary Space: O(1).
+	
 Constraints:
-1 ≤ N ≤ 107
-1 ≤ arr[i] ≤ 1018
-0 ≤ X ≤ arr[n-1]  
+<br> 1 ≤ N ≤ 107
+<br> 1 ≤ arr[i] ≤ 1018
+<br> 0 ≤ X ≤ arr[n-1]  
   
 
 ```python
@@ -412,38 +409,39 @@ if __name__ == "__main__":
     Dificulty Level : Basic
 Given an integer array and another integer element. The task is to find if the given element is present in array or not.
 
-Example 1:
+### Example 1:
 
-Input:
-n = 4
-arr[] = {1,2,3,4}
-x = 3
-Output: 2
-Explanation: There is one test case 
+Input: n = 4
+<br> arr[] = {1,2,3,4}
+<br> x = 3
+<br> Output: 2
+<br> Explanation: There is one test case 
 with array as {1, 2, 3 4} and element 
 to be searched as 3.  Since 3 is 
 present at index 2, output is 2.
-Example 2:
+	
+### Example 2:
 
-Input:
-n = 5
-arr[] = {1,2,3,4,5}
-x = 5
-Output: 4
-Explanation: For array elements 
+Input: n = 5
+<br> arr[] = {1,2,3,4,5}
+<br> x = 5
+<br> Output: 4
+<br> Explanation: For array elements 
 {1,2,3,4,5} element to be searched 
 is 5 and it is at index 4. So, the 
 output is 4.
-Your Task:
-The task is to complete the function search() which takes the array arr[], its size N and the element X as inputs and returns the index of first occurrence of X in the given array. If the element X does not exist in the array, the function should return -1.
-
-Expected Time Complexity: O(n).
-Expected Auxiliary Space: O(1). 
-
+	
+	
+### Your Task:
+<br> The task is to complete the function search() which takes the array arr[], its size N and the element X as inputs and returns the index of first occurrence of X in the given array. If the element X does not exist in the array, the function should return -1.
+	
+<br> Expected Time Complexity: O(n).
+<br> Expected Auxiliary Space: O(1). 
+	
 Constraints:
-1 <= n <= 106
-0 <= arr[i] <= 106
-0 <= x <= 105  
+<br> 1 <= n <= 106
+<br> 0 <= arr[i] <= 106
+<br> 0 <= x <= 105  
   
 
 ```python
@@ -497,30 +495,27 @@ if __name__ == "__main__":
   
     Dificulty Level : Basic
 Given an Integer N and a list arr. Sort the array using bubble sort algorithm.
-Example 1:
+### Example 1:
 
-Input: 
-N = 5
-arr[] = {4, 1, 3, 9, 7}
-Output: 
-1 3 4 7 9
-Example 2:
+Input: N = 5
+<br> arr[] = {4, 1, 3, 9, 7}
+<br> Output: 1 3 4 7 9
+	
+### Example 2:
 
-Input:
-N = 10 
-arr[] = {10, 9, 8, 7, 6, 5, 4, 3, 2, 1}
-Output: 
-1 2 3 4 5 6 7 8 9 10
-
-Your Task: 
-You don't have to read input or print anything. Your task is to complete the function bubblesort() which takes the array and it's size as input and sorts the array using bubble sort algorithm.
-
-Expected Time Complexity: O(N^2).
-Expected Auxiliary Space: O(1).
-
+Input: N = 10 
+<br> arr[] = {10, 9, 8, 7, 6, 5, 4, 3, 2, 1}
+<br> Output: 1 2 3 4 5 6 7 8 9 10
+	
+### Your Task: 
+<br> You don't have to read input or print anything. Your task is to complete the function bubblesort() which takes the array and it's size as input and sorts the array using bubble sort algorithm.
+	
+<br> Expected Time Complexity: O(N^2).
+<br> Expected Auxiliary Space: O(1).
+	
 Constraints:
-1 <= N <= 103
-1 <= arr[i] <= 103  
+<br> 1 <= N <= 103
+<br> 1 <= arr[i] <= 103  
   
 
 ```python
@@ -562,31 +557,28 @@ if __name__=='__main__':
 The task is to complete the insert() function which is used to implement Insertion Sort.
 
 
-Example 1:
+### Example 1:
 
-Input:
-N = 5
-arr[] = { 4, 1, 3, 9, 7}
-Output:
-1 3 4 7 9
-Example 2:
+Input: N = 5
+<br> arr[] = { 4, 1, 3, 9, 7}
+<br> Output:1 3 4 7 9
+	
+### Example 2:
 
-Input:
-N = 10
-arr[] = {10, 9, 8, 7, 6, 5, 4, 3, 2, 1}
-Output:
-1 2 3 4 5 6 7 8 9 10
-
-Your Task: 
-You don't have to read input or print anything. Your task is to complete the function insert() and insertionSort() where insert() takes the array, it's size and an index i and insertionSort() uses insert function to sort the array in ascending order using insertion sort algorithm. 
-
+Input: N = 10
+<br> arr[] = {10, 9, 8, 7, 6, 5, 4, 3, 2, 1}
+<br> Output: 1 2 3 4 5 6 7 8 9 10
+	
+### Your Task:
+<br> You don't have to read input or print anything. Your task is to complete the function insert() and insertionSort() where insert() takes the array, it's size and an index i and insertionSort() uses insert function to sort the array in ascending order using insertion sort algorithm. 
+	
+	
 Expected Time Complexity: O(N*N).
-Expected Auxiliary Space: O(1).
-
-
+<br> Expected Auxiliary Space: O(1).
+	
 Constraints:
-1 <= N <= 1000
-1 <= arr[i] <= 1000  
+<br> 1 <= N <= 1000
+<br> 1 <= arr[i] <= 1000  
   
 
 ```python
@@ -631,34 +623,41 @@ Inversion Count: For an array, inversion count indicates how far (or close) the 
 Formally, two elements a[i] and a[j] form an inversion if a[i] > a[j] and i < j.
  
 
-Example 1:
+### Example 1:
 
-Input: N = 5, arr[] = {2, 4, 1, 3, 5}
+Input: N = 5, 
+<br> arr[] = {2, 4, 1, 3, 5}
+										
 Output: 3
+										
 Explanation: The sequence 2, 4, 1, 3, 5 
 has three inversions (2, 1), (4, 1), (4, 3).
-Example 2:
+										
+### Example 2:
 
-Input: N = 5
-arr[] = {2, 3, 4, 5, 6}
-Output: 0
-Explanation: As the sequence is already 
+Input: N = 5 
+<br> arr[] = {2, 3, 4, 5, 6}
+<br> Output: 0
+<br> Explanation: As the sequence is already 
 sorted so there is no inversion count.
-Example 3:
-
-Input: N = 3, arr[] = {10, 10, 10}
-Output: 0
-Explanation: As all the elements of array 
+										
+### Example 3:
+Input: N = 3, arr[] = {10, 10, 10}							
+<br> Output: 0
+										
+<br> Explanation: As all the elements of array 
 are same, so there is no inversion count.
-Your Task:
-You don't need to read input or print anything. Your task is to complete the function inversionCount() which takes the array arr[] and the size of the array as inputs and returns the inversion count of the given array.'
-
-Expected Time Complexity: O(NLogN).
-Expected Auxiliary Space: O(N).
+										
+### Your Task: 
+<br> You don't need to read input or print anything. Your task is to complete the function inversionCount() which takes the array arr[] and the size of the array as inputs and returns the inversion count of the given array.'
+										
+<br> Expected Time Complexity: O(NLogN).
+<br> Expected Auxiliary Space: O(N).
+										
 
 Constraints:
-1 ≤ N ≤ 5*105
-1 ≤ arr[i] ≤ 1018  
+<br> 1 ≤ N ≤ 5*105
+<br> 1 ≤ arr[i] ≤ 1018  
   
 
 ```python
@@ -709,38 +708,37 @@ if __name__=='__main__':
     Dificulty Level : Basic
 Quick Sort is a Divide and Conquer algorithm. It picks an element as a pivot and partitions the given array around the picked pivot.
 Given an array arr[], its starting position is low (the index of the array) and its ending position is high(the index of the array).
+	
 
 Note: The low and high are inclusive.
+	
 
+	
 Implement the partition() and quickSort() functions to sort the array.
+	
 
 
-Example 1:
+### Example 1:
 
-Input: 
-N = 5 
-arr[] = { 4, 1, 3, 9, 7}
-Output:
-1 3 4 7 9
-Example 2:
+Input: N = 5 
+<br> arr[] = { 4, 1, 3, 9, 7}
+<br> Output: 1 3 4 7 9
+	
+### Example 2:
 
-Input: 
-N = 9
-arr[] = { 2, 1, 6, 10, 4, 1, 3, 9, 7}
-Output:
-1 1 2 3 4 6 7 9 10
-
+Input: N = 9
+<br> arr[] = { 2, 1, 6, 10, 4, 1, 3, 9, 7}
+<br> Output: 1 1 2 3 4 6 7 9 10
+	
 Your Task: 
-You don't need to read input or print anything. Your task is to complete the functions partition()  and quickSort() which takes the array arr[], low and high as input parameters and partitions the array. Consider the last element as the pivot such that all the elements less than(or equal to) the pivot lie before it and the elements greater than it lie after the pivot.
+<br> You don't need to read input or print anything. Your task is to complete the functions partition()  and quickSort() which takes the array arr[], low and high as input parameters and partitions the array. Consider the last element as the pivot such that all the elements less than(or equal to) the pivot lie before it and the elements greater than it lie after the pivot.
 
-
-Expected Time Complexity: O(N*logN)
-Expected Auxiliary Space: O(logN)
-
-
+<br> Expected Time Complexity: O(N*logN)
+<br> Expected Auxiliary Space: O(logN)
+	
 Constraints:
-1 <= N <= 103
-1 <= arr[i] <= 104  
+<br> 1 <= N <= 103
+<br> 1 <= arr[i] <= 104  
   
 
 ```python
@@ -784,41 +782,41 @@ Given a binary array A[] of size N. The task is to arrange the array in increasi
 Note: The binary array contains only 0  and 1.
  
 
-Example 1:
+### Example 1:
 
-Input: 
-5
+Input: 5
 1 0 1 1 0
 
-Output: 
+<br> Output: 
 0 0 1 1 1
 
-Explanation: 
+<br> Explanation: 
 After arranging the elements in 
 increasing order, elements will be as 
 0 0 1 1 1.
-Example 2:
+<br> ### Example 2:
 
 Input:
 10
 1 0 1 1 1 1 1 0 0 0
 
-Output: 
+<br> Output: 
 0 0 0 0 1 1 1 1 1 1
 
-Explanation: 
+<br> Explanation: 
 After arranging the elements in 
 increasing order, elements will be 
 0 0 0 0 1 1 1 1 1 1.
 
-Your Task: This is a function problem. You only need to complete the function binSort() that takes the array A[] and it's size N as parameters and sorts the array. The printing is done automatically by the driver code.
+### Your Task: 
+<br>This is a function problem. You only need to complete the function binSort() that takes the array A[] and it's size N as parameters and sorts the array. The printing is done automatically by the driver code.
 
-Expected Time Complexity: O(N)
-Expected Auxilliary Space: O(1)
+<br> Expected Time Complexity: O(N)
+<br> Expected Auxilliary Space: O(1)
 
 Constraints:
-1 <= N <= 106
-0 <= A[i] <= 1  
+<br> 1 <= N <= 106
+<br> 0 <= A[i] <= 1  
   
 
 ```python
